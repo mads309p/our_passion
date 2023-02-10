@@ -1,0 +1,97 @@
+.item {
+  width: 100%;
+  height: auto;
+}
+
+.read_more a:hover {
+  border: 4px solid white;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+.overskrift {
+  text-align: center;
+  padding-top: 40px;
+  background-color: rgb(237, 233, 217);
+  height: 200px;
+  grid-column: 1/6;
+  grid-row: 1/1;
+}
+
+.overskrift h3 {
+  text-align: center;
+  padding-top: 25px;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: 1rem;
+  max-width: 300px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.brand,
+.type {
+  color: rgb(93, 93, 93);
+  padding-bottom: 10px;
+}
+
+p {
+  padding-bottom: 10px;
+}
+
+.content p {
+  color: white;
+}
+
+.grid_1-1-1-1 a {
+  text-decoration: underline;
+  font-weight: 100;
+}
+
+.product {
+  margin: 40px 20px 20px 20px;
+  position: relative;
+}
+
+.price_discount_2 {
+  text-decoration: line-through;
+  font-style: italic;
+}
+
+.discount {
+  display: none;
+  gap: 40px;
+}
+
+.discount p:last-child {
+  background-color: rgb(246, 110, 110);
+  padding: 5px;
+  font-weight: 700;
+}
+
+article.soldOut a::before {
+  content: "Sold out";
+  font-weight: bold;
+
+  position: absolute;
+  bottom: 80%; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(71, 71, 71, 0.45); /* Black background with 0.5 opacity */
+  color: rgb(255, 255, 255); /* Grey text */
+  /* max-width: 258px; */
+  width: 40%; /* Full width */
+  padding: 20px; /* Some padding */
+  z-index: 1;
+}
+
+article.soldOut a img {
+  opacity: 0.5;
+}
+
+article.onSale .discount {
+  display: flex;
+  gap: 40px;
+}
