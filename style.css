@@ -54,13 +54,108 @@ h1 {
   text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.329);
 }
 
-footer {
-  background-color: rgba(215, 203, 175, 0.486);
-
-  height: 50px;
-  text-align: center;
-  padding: 50px;
+* ---------------------------------------------------------footer start------------------------------------- */ footer {
+  position: fixed;
+  bottom: -55px;
 }
+
+@media (max-height: 800px) {
+  footer {
+    position: static;
+  }
+  header {
+    padding-top: 40px;
+  }
+}
+
+.all_footer {
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  padding: 50px 50px 60px 50px;
+  margin-top: 80px;
+}
+
+.all_footer .footer_left,
+.all_footer .footer_center,
+.all_footer .footer_right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Footer left */
+
+.footer_left {
+  width: 30%;
+}
+
+.all_footer h3 {
+  color: #ba7064;
+
+  margin: 0;
+}
+.phone_number {
+  padding-top: 10px;
+  color: #ba7064;
+}
+.email {
+  padding-top: 15px;
+}
+.email_link {
+  color: #ba7064;
+}
+
+/* Footer links */
+
+.company_name {
+  margin: 0;
+  padding-top: 10px;
+}
+
+/* Footer Center */
+
+.footer_center {
+  width: 39%;
+}
+
+/* Footer Right */
+
+.footer_right {
+  width: 30%;
+}
+
+.footer_icons {
+  padding-top: 10px;
+}
+
+@media (max-width: 1000px) {
+  .footer_all .footer_left,
+  .footer_all .footer_center,
+  .footer_all .footer_right {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .footer-center i {
+    margin-left: 0;
+  }
+  .about_us {
+    flex-direction: column;
+  }
+  .about_us img {
+    flex: 0 100%;
+    max-width: 100%;
+  }
+  .content {
+    flex: 0 100%;
+    max-width: 100%;
+    padding: 15px;
+  }
+}
+
+/* -----------------------------------------footer slut----------------------------------- */
 
 @media (max-width: 1000px) {
   h1 {
