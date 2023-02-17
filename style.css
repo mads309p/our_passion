@@ -79,16 +79,14 @@ footer {
 }
 .about_us {
   display: flex;
-  align-items: center;
-  width: 85%;
-  margin: auto;
+  flex-wrap: wrap;
+  align-items: flex-start;
 }
-.about_us img {
-  flex: 0 50%;
-  max-width: 50%;
-  height: auto;
+.image-coontainer {
+  flex: 1 1 350px;
 }
 .content {
+  flex: 1 1 350px;
   padding: 35px;
   border: 1px solid #ba7064;
 }
