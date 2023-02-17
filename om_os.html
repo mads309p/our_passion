@@ -6,20 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="base.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   </head>
   <body>
-    <header>
-      <div class="heading">
-        <h1>OM OS</h1>
-      </div>
+    <br />
+    <div class="line"></div>
+    <br />
+    <header class="banner header">
+      <nav>
+        <div class="main-menu">
+          <button class="toggle-btn">Menu</button>
+          <ul>
+            <li><a href="index.html">Forside</a></li>
+            <li>
+              <div class="dropdown">
+                <button class="dropbtn">Udvalg ▾</button>
+                <div class="dropdown-content">
+                  <a href="productlist.html">Hvidvin</a>
+                  <a href="productlist.html">Rødvin</a>
+                  <a href="productlist.html">Rosé</a>
+                  <a href="productlist.html">Naturvin</a>
+                </div>
+              </div>
+            </li>
+            <li><a href="om_os.html">Om os</a></li>
+          </ul>
+        </div>
+      </ul>
+          <div class="icons">
+            <a class="search" href="#"><i class="fa fa-fw fa-search"></i></a>
+
+            <a class="basket" href="#"><i class="fa fa-shopping-basket"></i></a>
+          </div>
+      </nav>
     </header>
+    <div class="line"></div>
+    <br />
     <main>
       <section class="about_us">
         <div class="image-coontainer">
           <img src="assets/test.png" alt="test" />
         </div>
         <div class="content">
-          <h2>Lorem ipsum dolor sit amet.</h2>
+          <h2>OM OS</h2>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum quisquam mollitia excepturi magni saepe dolore eius architecto pariatur esse. Aspernatur quos nobis modi, architecto, velit temporibus atque placeat eos voluptatum
             dignissimos dolorem distinctio! Dolor asperiores voluptatum vero ut veniam sunt perferendis necessitatibus, debitis voluptatem ducimus suscipit et. Totam eaque aspernatur esse rem iure optio voluptatibus nostrum eum nesciunt laboriosam
@@ -33,7 +63,7 @@
         </div>
       </section>
     </main>
-    <!-- <footer class="all_footer">
+    <footer class="all_footer">
       <div class="footer_left">
         <h3>KONTAKT OS HER</h3>
 
@@ -59,6 +89,6 @@
           ></a>
         </div>
       </div>
-    </footer> -->
+    </footer>
   </body>
 </html>

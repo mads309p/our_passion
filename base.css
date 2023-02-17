@@ -9,12 +9,13 @@
 
 h2 {
   font-size: 4rem;
+  color: #ba7064;
 }
 
 .overskrift {
   text-align: center;
   padding-top: 40px;
-  background-color: rgb(237, 233, 217);
+  background-color: #f2e3db;
   height: 200px;
   grid-column: 1/6;
   grid-row: 1/1;
@@ -42,18 +43,16 @@ p {
   padding-bottom: 10px;
 }
 
-.content p {
-  color: white;
-}
-
 .grid_1-1-1-1 a {
-  text-decoration: underline;
-  font-weight: 100;
+  font-weight: bold;
 }
 
 .price_discount_2 {
   text-decoration: line-through;
   font-style: italic;
+  font-size: small;
+  padding-top: 2px;
+  color: #e5aca3;
 }
 
 .discount {
