@@ -11,12 +11,12 @@ html {
 }
 
 body {
-  background-color: rgb(237, 233, 217);
+  background-color: #f2e3db;
   color: rgb(65, 58, 46);
 }
 
 img {
-  display: block;
+  /* display: block; */
   max-width: 100%;
   height: auto;
 }
