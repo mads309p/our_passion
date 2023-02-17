@@ -23,7 +23,11 @@ img {
   max-width: 100%;
   height: auto;
 }
-
+.test {
+  display: flex;
+  gap: 10px;
+  margin-inline: auto;
+}
 h1 {
   font-size: 2.5rem;
   letter-spacing: -0.2rem;

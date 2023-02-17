@@ -54,6 +54,9 @@ p {
 .price_discount_2 {
   text-decoration: line-through;
   font-style: italic;
+  font-size: small;
+  padding-top: 2px;
+  color: #e5aca3;
 }
 
 .discount {
