@@ -73,7 +73,7 @@ p {
 }
 
 article.soldOut a::before {
-  content: "Sold out";
+  content: "Udsolgt";
   font-weight: bold;
 
   position: absolute;
@@ -96,18 +96,6 @@ article.onSale .discount {
   gap: 40px;
 }
 
-.grid_1-1-1-1 {
-  display: grid;
-  gap: 0px;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-
-@media (max-width: 1000px) {
-  .grid_1-1-1-1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-}
 @media (max-width: 650px) {
   .grid_1-1-1-1 {
     display: grid;
