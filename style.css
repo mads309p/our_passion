@@ -11,8 +11,11 @@ html {
 }
 
 body {
+  background-color: white;
+  color: var(--text-color);
+}
+main {
   background-color: #f2e3db;
-  color: rgb(65, 58, 46);
 }
 
 img {
