@@ -23,12 +23,34 @@ h1 {
   text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.329);
 }
 
-footer {
-  background-color: rgba(215, 203, 175, 0.486);
+/* ---------------------------------------------------------footer start------------------------------------- */
 
-  height: 50px;
+@media (max-height: 800px) {
+  footer {
+    position: static;
+  }
+  header {
+    padding-top: 40px;
+  }
+}
+
+.productlist main {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 300px));
+  justify-content: center;
+}
+
+.productlist article {
+  display: flex;
+  flex-direction: column;
+}
+
+body h4 {
   text-align: center;
-  padding: 50px;
+}
+
+.information {
+  text-align: center;
 }
 
 /* ------------------------------sold out feat start---------------------------- */
@@ -62,6 +84,136 @@ footer {
 }
 
 /* --------------------sold out feat slut------------------ */
+
+.all_footer {
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  padding: 50px 50px 60px 50px;
+  margin-top: 80px;
+}
+
+.all_footer .footer_left,
+.all_footer .footer_center,
+.all_footer .footer_right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Footer left */
+
+.footer_left {
+  width: 30%;
+}
+
+.all_footer h3 {
+  color: #ba7064;
+
+  margin: 0;
+}
+.phone_number {
+  padding-top: 10px;
+  color: #ba7064;
+}
+.email {
+  padding-top: 15px;
+}
+.email_link {
+  color: #ba7064;
+}
+
+/* Footer links */
+
+.company_name {
+  margin: 0;
+  padding-top: 10px;
+}
+
+/* Footer Center */
+
+.footer_center {
+  width: 39%;
+}
+
+/* Footer Right */
+
+.footer_right {
+  width: 30%;
+}
+
+.footer_icons {
+  padding-top: 10px;
+}
+
+@media (max-width: 1000px) {
+  .footer_all .footer_left,
+  .footer_all .footer_center,
+  .footer_all .footer_right {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .footer-center i {
+    margin-left: 0;
+  }
+  .about_us {
+    flex-direction: column;
+  }
+  .about_us img {
+    flex: 0 100%;
+    max-width: 100%;
+  }
+  .content {
+    flex: 0 100%;
+    max-width: 100%;
+    padding: 15px;
+  }
+}
+
+/* -----------------------------------------footer slut----------------------------------- */
+
+/* -----------------------------------------om os start----------------------------------------- */
+.heading {
+  text-align: center;
+  margin-top: 25px;
+}
+.heading h1 {
+  font-size: 50px;
+  color: #ba7064;
+  margin-bottom: 10px;
+}
+.harding p {
+  font-size: 20px;
+  color: #ba7064;
+  margin-bottom: 50px;
+}
+.about_us {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.image-coontainer {
+  flex: 1 1 350px;
+}
+.content {
+  flex: 1 1 350px;
+  padding: 35px;
+  border: 1px solid #ba7064;
+}
+.content h2 {
+  color: #ba7064;
+  font-size: 24px;
+  margin: 15px 0px;
+}
+.content p {
+  color: #ba7064;
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 15px 0px;
+}
+/* ------------------------------------ om os slut-------------------------- */
 
 @media (max-width: 1000px) {
   h1 {
