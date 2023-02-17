@@ -27,6 +27,21 @@ h1 {
   margin-right: 500px;
   text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.329);
 }
+
+.buy {
+  background-color: #ba7064;
+  border: #ba7064;
+  border-radius: 1em;
+  width: 4em;
+  height: 2em;
+  margin-inline: auto;
+}
+
+.buy a {
+  color: #fef7f3;
+  font-weight: bold;
+}
+
 /* Header styling */
 .line {
   height: 1px;
