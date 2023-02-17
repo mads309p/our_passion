@@ -51,11 +51,6 @@ p {
   font-weight: 100;
 }
 
-.product {
-  margin: 40px 20px 20px 20px;
-  position: relative;
-}
-
 .price_discount_2 {
   text-decoration: line-through;
   font-style: italic;

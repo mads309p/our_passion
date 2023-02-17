@@ -31,6 +31,7 @@ footer {
   padding: 50px;
 }
 
+<<<<<<< HEAD
 .productlist main {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 300px));
@@ -50,6 +51,40 @@ body h4 {
   text-align: center;
 }
 
+=======
+/* ------------------------------sold out feat start---------------------------- */
+
+.product-item-banner {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  left: 0;
+  padding: 0.15em 0 0.25em;
+  margin: -0.95em 0 0;
+  font-size: 1.125em;
+  color: #ba7064;
+  text-align: center;
+  background-color: #f2e3db;
+}
+.product {
+  position: relative;
+  min-height: 100px;
+  text-align: center;
+  margin: 40px 20px 20px 20px;
+}
+.accent-text {
+  /* font-family:  */
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.product-item-banner a {
+  text-decoration: none;
+}
+
+/* --------------------sold out feat slut------------------ */
+
+>>>>>>> sold_out
 @media (max-width: 1000px) {
   h1 {
     margin-right: 200px;
