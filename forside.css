@@ -13,6 +13,9 @@ img {
 body {
   background-color: white;
 }
+main {
+  background-color: white;
+}
 
 /* Header styling */
 .line {
