@@ -21,10 +21,10 @@ function showWine(t7vin) {
   // copy.querySelector(".price_discount").textContent = t7vin.discount;
   copy.querySelector(".price_discount_2").textContent = t7vin.onebottleprice;
   copy.querySelector(".price").textContent = t7vin.onebottleprice;
-  document.querySelector(".grid_1-1-1-1").appendChild(copy);
-  if (t7vin.availability > 0) {
-    document.querySelector(".product-item-banner").classList.remove("hide");
+  if (t7vin.soldout) {
+    document.querySelector("article").classList.add("productSoldout");
   }
+  document.querySelector(".grid_1-1-1-1").appendChild(copy);
 }
 
 // function showProduct(product) {
