@@ -35,6 +35,10 @@ h1 {
   text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.329);
 }
 
+.hide {
+  display: none;
+}
+
 .buy {
   background-color: #ba7064;
   border: #ba7064;
