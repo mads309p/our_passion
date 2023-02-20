@@ -39,6 +39,10 @@ h1 {
   display: none;
 }
 
+.kurvetekst {
+  text-align: center;
+}
+
 .buy {
   background-color: #ba7064;
   border: #ba7064;
