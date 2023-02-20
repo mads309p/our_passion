@@ -1,6 +1,3 @@
-const urlParams = new URLSearchParams(window.location.search);
-const category = urlParams.get("category");
-
 fetch(" https://t7vin-9963.restdb.io/rest/t7vin", {
   method: "get",
   headers: {
@@ -8,20 +5,21 @@ fetch(" https://t7vin-9963.restdb.io/rest/t7vin", {
   },
 })
   .then((e) => e.json())
-  .then(doSomething);
+  .then(showWines);
 
-function doSomething(data) {
-  console.log(data);
-  products.forEach(showProduct);
+function showWines(wines) {
+  console.log(wines);
+  wines.forEach(showWine);
 }
 
-// fetch("https://kea-alt-del.dk/t7/api/products?category=" + category)
-//   .then((res) => res.json())
-//   .then(showProducts);
-
-function showProducts(products) {
-  //looper og kalder showProduct
-  products.forEach(showProduct);
+function showWine(t7vin) {
+  const template = document.querySelector("#templatevin").content;
+  const copy = template.cloneNode(true);
+  //copy.querySelector("img").src = `https://kea-alt-del.dk/t7/images/webp/640/${product.id}.webp`;
+  copy.querySelector(".name").textContent = t7vin.name;
+  copy.querySelector(".information").textContent = t7vin.blend + t7vin.year;
+  copy.querySelector(".price").textContent = t7vin.sixbottleprice + " DKK " + t7vin.onebottleprice + " DKK";
+  document.querySelector(".grid_1-1-1-1").appendChild(copy);
 }
 
 // function showProduct(product) {
