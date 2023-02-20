@@ -17,7 +17,7 @@ main {
   background-color: white;
 }
 
-/* Header styling */
+/* Header styling 
 .line {
   height: 1px;
   width: 90%;
@@ -64,7 +64,7 @@ nav {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-/* Dropdown Button */
+/* Dropdown Button 
 .dropbtn {
   background-color: white;
   color: var(--text-color);
@@ -115,7 +115,7 @@ a:hover {
   justify-content: space-between;
 }
 
-/* burgermenu */
+/* burgermenu 
 .toggle-btn {
   background: transparent;
   color: var(--tekst-color);
@@ -128,6 +128,7 @@ a:hover {
   cursor: pointer;
   display: none;
 }
+*/
 
 /* Styling af indhold*/
 
@@ -162,13 +163,6 @@ h3 {
 /* Media queries */
 
 @media (max-width: 1400px) {
-  header nav ul {
-    padding: 1rem 1rem;
-    gap: 100px;
-  }
-  .icons {
-    padding: 20px 100px 20px 20px;
-  }
   h2 {
     font-size: 2.8rem;
   }
@@ -182,17 +176,10 @@ h3 {
   h2 {
     font-size: 2rem;
   }
-  header nav ul {
-    padding: 1rem 1rem;
 
-    gap: 50px;
-  }
   .forside_grid_1-1-1 {
     gap: 20px;
     padding: 40px 20px;
-  }
-  .icons {
-    padding: 20px 200px 20px 20px;
   }
 }
 
@@ -210,59 +197,5 @@ h3 {
     margin-top: 0%;
     margin-inline: auto;
     padding: 40px 20px;
-  }
-
-  header nav ul {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 1rem 1rem;
-    padding-bottom: 40px;
-    gap: 40px;
-    text-align: center;
-  }
-
-  nav {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-  .search {
-    padding-right: 20px;
-  }
-  .icons {
-    text-align: right;
-    padding: 20px 20px 20px 20px;
-  }
-
-  .toggle-btn {
-    display: block;
-    color: var(--text-color);
-  }
-
-  .main-menu {
-    display: contents;
-  }
-
-  .main-menu ul {
-    display: none;
-  }
-
-  .main-menu.shown ul {
-    padding-top: 1rem;
-    display: flex;
-
-    flex-flow: column;
-    flex-basis: 100%;
-  }
-
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: white;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-
-    margin-left: 70px;
-    margin-top: -100px;
   }
 }

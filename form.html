@@ -4,9 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Vin Druen</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="base.css" />
+    <link rel="stylesheet" href="forside.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   </head>
   <body>
@@ -44,35 +45,35 @@
     </header>
     <div class="line"></div>
     <br />
-    <main></main>
-    <footer>
-      class="all_footer">
-      <div class="footer_left">
-        <h3>KONTAKT OS HER</h3>
-
-        <div class="phone_number">
-          <p>+45 12 34 56 78</p>
-        </div>
-        <div>
-          <p class="email"><a class="email_link" href="mailto:vindruen@gmail.com">vindruen@gmail.com</a></p>
-        </div>
-
-        <p class="company_name">©vindruen</p>
+    <main>
+        <div class="farve">
+<h2>Kom med indput til vores site</h2>
+<div class="form_grid_1-1">
+    <div class="oplysninger">
+        <h3>Mangler din yndlingsvin på vores shop?</h3>
+        <p>Så er du mere end velkommen til at sende os en besked med dit navn, email og en beskrivelse af din vin.</p>
       </div>
-
-      <div class="footer_center"></div>
-      <div class="footer_right">
-        <h3>FIND OS HER</h3>
-        <div class="footer_icons">
-          <a
-            ><i> <img src="assets/facebook.svg" alt="fb" /> </i
-          ></a>
-          <a
-            ><i> <img src="assets/insta.svg" alt="insta" /> </i
-          ></a>
+    <div class="kontakt">
+      <form name="kontakt">
+        <div class="form-felt required">
+          <label for="navn">Dit navn</label>
+          <input type="text" id="navn" name="navn" placeholder="Vindruen" />
         </div>
-      </div>
-    </footer>
-    <script src="product.js"></script>
+        <div class="form-felt required">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Vindruen@gmail.com" />
+        </div>
+        <div class="form-felt required">
+          <label for="andet">Skriv dit bud her</label>
+          <textarea name="besked" id="besked" cols="30" rows="10"></textarea>
+        </div>
+        <button type="submit">Indsend</button>
+      </form>
+    </div>
+  </div>
+</div>
+    </main>
+    
+    <script src="burgermenu.js"></script>
   </body>
 </html>
