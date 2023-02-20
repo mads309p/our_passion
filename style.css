@@ -74,7 +74,7 @@ header nav ul {
   margin: 0;
   padding: 1rem 1rem;
   padding-bottom: 40px;
-  gap: 200px;
+  gap: 100px;
   text-align: center;
   font-size: 1.2rem;
 }
@@ -165,25 +165,24 @@ a:hover {
   display: none;
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1200px) {
   header nav ul {
     padding: 1rem 1rem;
-    gap: 100px;
+    gap: 40px;
   }
   .icons {
-    padding: 20px 100px 20px 20px;
+    padding: 20px 200px 20px 20px;
   }
 }
 
 @media (max-width: 1000px) {
   header nav ul {
     padding: 1rem 1rem;
-
-    gap: 50px;
+    gap: 16px;
   }
 
   .icons {
-    padding: 20px 200px 20px 20px;
+    padding: 20px 180px 20px 20px;
   }
 }
 
@@ -434,6 +433,79 @@ body h4 {
   margin: 15px 0px;
 }
 /* ------------------------------------ om os slut-------------------------- */
+
+/* Form side */
+.form_grid_1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.farve {
+  background-color: var(--background-color);
+}
+
+.farve h2 {
+  font-size: 2.5rem;
+}
+
+.farve h3 {
+  font-size: 1rem;
+  text-transform: none;
+  text-align: left;
+}
+
+.farve p {
+  max-width: 80%;
+  line-height: 1.6rem;
+}
+
+.oplysninger {
+  margin-left: 25%;
+  margin-top: 10%;
+}
+form {
+  margin-bottom: 5%;
+  border-radius: 8px;
+  background-color: #f2e3db;
+  margin: 10% 25% 10% 0%;
+  padding: 50px;
+}
+
+.form-felt label {
+  display: block;
+}
+
+.form-felt {
+  margin-block: 20px;
+  color: var(--text-color);
+}
+
+form input {
+  border: none;
+  border-radius: 2px;
+  padding: 10px;
+}
+
+form textarea {
+  border: none;
+  border-radius: 2px;
+  padding: 10px;
+}
+
+form button {
+  border-radius: 2px;
+  border: 2px solid var(--text-color);
+  height: 30px;
+  width: 100px;
+  background-color: var(--text-color);
+  color: white;
+}
+
+.required label:after {
+  content: "*";
+  color: rgb(193, 30, 30);
+}
+
+/* Form side slut */
 
 @media (max-width: 1000px) {
   h1 {
