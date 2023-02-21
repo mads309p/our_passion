@@ -12,6 +12,7 @@ function showCategory(cat) {
   //her vil jeg gerne clone / lave copy
   const clone = template.cloneNode(true);
   //nu vil jeg have mulighed for at ændre mit indhold
+  clone.querySelector("a").textContent = cat.showCategory;
   //jeg skal kunne ændre mit indhold her, men det kræver at der er et link. Hvilket link skal jeg have?
   //appende
   document.querySelector("forside_grid_1-1-1").appendChild(clone);

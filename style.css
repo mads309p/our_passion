@@ -287,7 +287,7 @@ body h4 {
   background-color: #f2e3db;
 }
 .product {
-  position: relative;
+  /* position: relative; */
   min-height: 100px;
   text-align: center;
   margin: 40px 20px 20px 20px;
@@ -547,4 +547,13 @@ form button {
 
 .roseknap {
   margin-left: 120px;
+}
+
+.productcontainer {
+  display: grid;
+  align-items: center;
+}
+.productcontainer > * {
+  grid-column: 1;
+  grid-row: 1;
 }
