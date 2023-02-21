@@ -530,6 +530,10 @@ form button {
     max-width: 60%;
     line-height: 1.6rem;
   }
+  .oplysninger {
+    margin-left: 20%;
+    margin-top: 10%;
+  }
 }
 
 @media (max-width: 650px) {
