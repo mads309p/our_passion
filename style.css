@@ -643,7 +643,7 @@ select {
   grid-template-columns: 1fr 1fr;
 }
 
-h3 {
+.information h3 {
   font-size: 2rem;
   border-bottom: 2px solid var(--text-color);
 }
