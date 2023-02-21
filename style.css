@@ -531,3 +531,12 @@ form button {
     font-size: 0.9rem;
   }
 }
+
+/* ------------------------------------ grid på produklisten start-------------------------- */
+
+.grid_1-1-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 85vw;
+}
+/* ------------------------------------ grid på produklisten slut-------------------------- */
