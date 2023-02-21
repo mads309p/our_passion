@@ -35,10 +35,6 @@ h1 {
   text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.329);
 }
 
-.hide {
-  display: none;
-}
-
 .kurvetekst {
   text-align: center;
 }
@@ -280,8 +276,8 @@ body h4 {
 
 .product-item-banner {
   position: absolute;
-  top: 37%;
-  right: 0;
+  top: 100%;
+  right: 900px;
   left: 0;
   padding: 0.15em 0 0.25em;
   margin: -0.95em 0 0;
@@ -540,3 +536,15 @@ form button {
   width: 85vw;
 }
 /* ------------------------------------ grid på produklisten slut-------------------------- */
+
+.hvidvineknap {
+  margin-left: 102px;
+}
+
+.rodvinknap {
+  margin-left: 120px;
+}
+
+.roseknap {
+  margin-left: 120px;
+}

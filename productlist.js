@@ -21,9 +21,9 @@ function showWine(t7vin) {
   // copy.querySelector(".price_discount").textContent = t7vin.discount;
   copy.querySelector(".price").textContent = t7vin.onebottleprice;
   // copy.querySelector(".price_discount_2").textContent = t7vin.onebottleprice;
-  // if (t7vin.soldout) {
-  //   document.querySelector("article").classList.add("productSoldout");
-  // }
+  if (t7vin.soldout) {
+    document.querySelector("article").classList.add("productSoldout");
+  }
   document.querySelector(".grid_1-1-1-1").appendChild(copy);
 }
 
