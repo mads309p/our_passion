@@ -634,9 +634,9 @@ form button {
 }
 
 .image {
-  margin-left: 100px;
+  margin-left: 250px;
   margin-top: 5%;
-  width: 80%;
+  width: 40%;
 }
 
 .info_box {
@@ -648,11 +648,11 @@ form button {
   margin: 5%;
   margin-left: 10%;
   padding: 20px;
-  width: 70%;
+  width: 50%;
   height: 480px;
 }
 
-.price {
+.price2 {
   font-size: 1.2rem;
   text-align: right;
   margin-right: 10%;
