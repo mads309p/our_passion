@@ -505,6 +505,65 @@ form button {
   color: rgb(193, 30, 30);
 }
 
+@media (max-width: 900px) {
+  .form_grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .form_grid_1-1 form {
+    margin-bottom: 5%;
+    border-radius: 8px;
+    background-color: #f2e3db;
+    margin: 10% 25% 10% 20%;
+    padding: 50px;
+  }
+  .farve h2 {
+    font-size: 2rem;
+  }
+  .farve h3 {
+    font-size: 1rem;
+    text-transform: none;
+  }
+
+  .farve p {
+    max-width: 60%;
+    line-height: 1.6rem;
+  }
+  .oplysninger {
+    margin-left: 20%;
+    margin-top: 10%;
+  }
+}
+
+@media (max-width: 650px) {
+  .form_grid_1-1 form {
+    margin-bottom: 5%;
+    border-radius: 8px;
+    background-color: #f2e3db;
+    margin: 10% 10% 10% 10%;
+    padding: 20px;
+  }
+  .farve h2 {
+    font-size: 1.5rem;
+  }
+  .farve h3 {
+    font-size: 1rem;
+    text-transform: none;
+    margin-left: 0px;
+  }
+
+  .farve p {
+    max-width: 90%;
+    line-height: 1.6rem;
+  }
+
+  .oplysninger {
+    margin-left: 10%;
+    margin-top: 10%;
+  }
+}
+
 /* Form side slut */
 
 @media (max-width: 1000px) {
@@ -643,7 +702,7 @@ select {
   grid-template-columns: 1fr 1fr;
 }
 
-h3 {
+.information h3 {
   font-size: 2rem;
   border-bottom: 2px solid var(--text-color);
 }
@@ -702,7 +761,7 @@ h3 {
     font-size: 1.2rem;
   }
 
-  h3 {
+  .information h3 {
     font-size: 1.8rem;
     border-bottom: 2px solid var(--text-color);
   }
