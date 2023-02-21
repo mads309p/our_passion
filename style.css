@@ -462,7 +462,7 @@ body h4 {
   margin-left: 25%;
   margin-top: 10%;
 }
-form {
+.form_grid_1-1 form {
   margin-bottom: 5%;
   border-radius: 8px;
   background-color: #f2e3db;
@@ -547,4 +547,178 @@ form button {
 
 .roseknap {
   margin-left: 120px;
+}
+
+/* product side */
+.baggrundsfarve {
+  background-color: var(--background-color);
+}
+
+.grid_1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: white;
+}
+
+.grid_1-1 h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.image {
+  margin-left: 100px;
+  margin-top: 5%;
+  width: 80%;
+}
+
+.info_box {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  border: 1px solid var(--text-color);
+  background-color: white;
+  margin: 5%;
+  margin-left: 10%;
+  padding: 20px;
+  width: 70%;
+  height: 480px;
+}
+
+.price {
+  font-size: 1.2rem;
+  text-align: right;
+  margin-right: 10%;
+  font-style: italic;
+  font-weight: 100;
+  margin-top: 10px;
+  border-bottom: 1px solid var(--text-color);
+}
+
+.info_style,
+.year_style,
+.alkohol_style {
+  margin-left: 10%;
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+.info_box form {
+  background-color: white;
+}
+select {
+  min-width: 30%;
+  margin-left: 40%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 2px solid var(--text-color);
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  height: 40px;
+  background-color: var(--text-color);
+}
+
+.info_box button {
+  display: block;
+  font-size: 1rem;
+  width: 80%;
+  padding: 8px;
+  margin-left: 0;
+  border: 2px solid var(--text-color);
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  height: 40px;
+  background-color: var(--text-color);
+}
+
+.knap_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+h3 {
+  font-size: 2rem;
+  border-bottom: 2px solid var(--text-color);
+}
+.specifikationer_grid_1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 5%;
+}
+
+.information {
+  margin-top: 10%;
+  padding-bottom: 10%;
+  width: 30%;
+  margin-inline: auto;
+}
+
+.information h4 {
+  font-size: 1.5rem;
+  padding-top: 30%;
+  border-bottom: 1px solid var(--text-color);
+}
+
+.information p {
+  margin-left: 0%;
+  font-size: 1.5rem;
+  padding-top: 30%;
+  border-bottom: 1px solid var(--text-color);
+}
+
+@media (max-width: 900px) {
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 650px) {
+  .image {
+    margin-inline: auto;
+    margin-top: 5%;
+    width: 80%;
+  }
+  .grid_1-1 h2 {
+    font-size: 1.5rem;
+  }
+
+  .info_box {
+    margin-inline: auto;
+    gap: 20px;
+    height: 400px;
+  }
+
+  .info_style,
+  .year_style,
+  .alkohol_style {
+    font-size: 1.2rem;
+  }
+
+  h3 {
+    font-size: 1.8rem;
+    border-bottom: 2px solid var(--text-color);
+  }
+  .specifikationer_grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 5%;
+  }
+
+  .information {
+    margin-top: 10%;
+    padding-bottom: 10%;
+    width: 50%;
+    margin-inline: auto;
+  }
+
+  .information h4 {
+    font-size: 1.2rem;
+    padding-top: 30%;
+    border-bottom: 1px solid var(--text-color);
+  }
+
+  .information p {
+    font-size: 1.2rem;
+    padding-top: 30%;
+    border-bottom: 1px solid var(--text-color);
+  }
 }
