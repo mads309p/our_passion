@@ -9,6 +9,7 @@ fetch("https://t7vin-9963.restdb.io/rest/t7vin/63ea39a0aa860750000548a4", {
 
 function showProduct(product) {
   console.log(product);
+  document.querySelector(".name").textContent = product.name;
   document.querySelector(".info_box .info").textContent = product.blend;
   document.querySelector(".info_box .year").textContent = product.year;
   document.querySelector(".info_box .alkohol").textContent = product.percentage2;
