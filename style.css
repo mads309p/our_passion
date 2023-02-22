@@ -275,7 +275,6 @@ body h4 {
 /* ------------------------------sold out feat start---------------------------- */
 
 .product-item-banner {
-  position: absolute;
   top: 100%;
   right: 900px;
   left: 0;
