@@ -804,3 +804,12 @@ select {
     border-bottom: 1px solid var(--text-color);
   }
 }
+
+/* logo */
+
+.logo {
+  width: 5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
